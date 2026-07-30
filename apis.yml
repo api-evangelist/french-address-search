@@ -1,4 +1,16 @@
 aid: french-address-search
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/french-address-search.png
 name: French Address Search
 description: "Address search via the French Government"
 url: https://geo.api.gouv.fr/adresse
