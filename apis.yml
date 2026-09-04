@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://geo.api.gouv.fr/adresse', status: 301, note: 'declared website redirects to https://adresse.data.gouv.fr/outils/api-doc/adresse — a different registrable domain (api.gouv.fr -> data.gouv.fr), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/french-address-search.png
 name: French Address Search
 description: "Address search via the French Government"
